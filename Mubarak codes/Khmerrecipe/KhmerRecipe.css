@@ -1,0 +1,126 @@
+ul{
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+.navbarcontents{
+    display: flex;
+}
+.individualcontents{
+    margin-right: 10px;
+    color: #A50B5E;
+}
+.navbarcontents li a{
+    text-decoration: none;
+}
+.logo{
+    margin-left: 150px;
+    color: #A50B5E;
+    font-size: larger;
+    font-weight: bolder;
+}
+.description{
+    background-color: #99cc00;
+    height: 450px;
+    color: white;
+    position: relative;
+}
+.navbar ul{
+    height: 5px
+}
+button{
+    background-color: #A50B5E;
+    border: none;
+    padding: 7px;
+    box-shadow: 2px 2px grey;
+    color: white;
+}
+.wordindescr{
+    position: absolute;
+    top: 170px;
+    left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.incambodia{
+    font-size: larger;
+}
+.wedeliver{
+    font-size: small;
+}
+.sort{
+    border: 1px solid #A50B5E;
+}
+.ourmenus{
+    color: #A50B5E;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sort option{
+    border: 1px solid #A50B5E;
+}
+.chefimage{
+    position: absolute;
+    right: 60px;
+    top: 170px;
+}
+.friedshrimp{
+    width: 200px;
+    height: 200px;
+}
+.foodname{
+    color: #8fd400;
+    font-weight: bolder;
+}
+.fooditems{
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bouillabaisse{
+    width: 200px;
+    height: 200px;
+}
+.potatoesandsteak{
+    width: 200px;
+    height: 200px;
+}
+.products{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.placeorder{
+    display: flex;
+    justify-content: space-between;
+}
+.orderbtn{
+    height: 25px;
+    margin-top: 12px;
+}
+.price{
+    color: #A50B5E;
+    font-weight: bolder;
+}
+.grilledbeef{
+    width: 200px;
+    height: 200px;
+}
+.samosa{
+    width: 200px;
+    height: 200px;
+}
+.seafoodplatter{
+    width: 200px;
+    height: 200px;
+}
+.orderbtn{
+    padding: 10px;
+}
+

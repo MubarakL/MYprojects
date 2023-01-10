@@ -1,0 +1,29 @@
+table{
+    width: 100%;
+   border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    padding: 15px;
+}
+.c01:hover{background-color: crimson;}
+tr:nth-child(even) {background-color:aqua;}
+tr:nth-child(odd) {background-color: crimson;}
+/* body{
+    background-image: url("/images/programme.jpg");
+} */
+img{
+    position: relative;
+    float: right;
+}
+h1{
+    position: absolute;
+    top: 300px;
+}
+a.high:focus{
+    background-color: aquamarine;
+}
+.c01 td:nth-last-child(1){
+    background-color: blue;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP FORM</title>
+</head>
+<body>
+   <form>
+      <fieldset>
+          <legend>Signup Page</legend>
+        <div>
+            <label>Username:</label>
+            <input type="text" placeholder="Enter Username" name="Username" value="">
+           </div>
+           <div>
+            <label>Password::</label>
+            <input required pattern="AaBbCc@#*%" type="text" placeholder="Enter Password" name="Password" value="">
+            </div>
+            <div>
+                <label>CLUB</label>
+                <select name="club_select">
+                    <option value="">choose club</option>
+                    <option value="Chelsea">Chelsea FC</option>
+                    <option value="Real_Madrid">Real Madrid CF</option>
+                    <option value=" Crystal_Palace">Crystal Palace FC</option>
+                    <option value="Huddersfield">Huddersfield</option>
+                    <option value="Barcelona">FC Barcelona</option>
+                    <option value="Liverpool" selected>Liverpool Fc</option>
+                </select>
+            </div>
+            <div>
+                <label>GENDER</label><br>
+                <input name="gender" value="Male" type="radio" checked>Male<br>
+                <input name="gender" value="Female" type="radio">Female<br>
+                <input name="gender" value="other" type="radio">Other<br>
+            </div>
+            <div>
+                <label>Likes</label><br>
+                <input name="likes" value="Male" type="checkbox" checked>Marvel<br>
+                <input name="likes" value="Female" type="checkbox">Sports<br>
+                <input name="likes" value="other" type="checkbox">DC<br>
+            </div>
+            <div>
+                <label>Bio</label>
+                <textarea name="about" rows="20" cols="40" placeholder="bio"></textarea>
+            </div>
+            <div>
+                <button ondblclick="alert('welcome to my page')">SignUp</button>
+            </div>
+            <div>
+                <label>ENTER AGE</label>
+                <input type="number" min="18" max="21">
+            </div>
+            <div>
+                <label>Birthday</label>
+                <input type="date">
+            </div>
+            <div>
+                <label>select image(s)</label>
+                <input type="file" name="img" multiple>
+            </div>
+      </fieldset>
+        
+   </form>
+</body>
+</html>

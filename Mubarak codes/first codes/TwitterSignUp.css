@@ -1,0 +1,57 @@
+div{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+input {border-right-style: none;
+ border-left-style: none;
+ border-top-style: none;
+ border-bottom-color: teal;
+ border-bottom-width: 2px;
+}
+form{
+    width: 670px;
+    padding: 20px;
+    margin-left: 576px;
+}
+a {
+    text-decoration:none;
+    padding: 8px;
+    background-color: rgb(17, 212, 238);
+    color: black;
+    font-weight:bolder ;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: medium;
+}
+a:hover{
+    background-color: cadetblue;
+}
+a:visited{
+    background-color: cadetblue;
+}
+body{
+    background-image: url("/images/styl/download.png");
+}
+button{
+    padding: 8px;
+    background-color:rgb(0, 132, 255);
+    color: black;
+    font-weight: bolder;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: medium;
+}
+input[type=text], input[type=password], input[type=email]{
+    outline-style: none;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
+    border-bottom-color: crimson;
+}
+.imn{
+    position: relative;
+}
+.ijk{
+    position: absolute;
+    left: 30px;
+    top: 200px;
+}

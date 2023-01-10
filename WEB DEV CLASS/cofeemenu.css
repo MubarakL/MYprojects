@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(/download.jfif);
+}
+
+#menu{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: burlywood;
+}
+
+.first{
+    text-align: center;
+    padding: 3%;
+}
+
+#second{
+    text-align: center;
+    padding: 3%;
+}
+
+#coffee{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+#prices{
+    padding-left: 68%;
+}
+
+#products{
+    text-align: justify;
+    /* padding-left: 2%; */
+}
+#third{
+    text-align: center;
+    padding: 3%;
+}
+#dessert{
+    display: flex;
+}
+#prices2{
+    padding-left: 75%;
+}
+a{
+    color: black;
+}
+#link{
+    text-align: center;
+    padding: 1.5%;
+}
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+hr{
+    background-color: brown;
+    border-color: brown;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h3{
+    font-weight: lighter;
+    font-size: small;
+    font-style: italic;
+}
+
+.line{
+    padding: 1.5%;
+}
+h4{
+    padding: 1.5%;
+}

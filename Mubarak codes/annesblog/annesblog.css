@@ -1,0 +1,39 @@
+.profile{
+    display: flex;
+}
+.image1{
+    width: 40px;
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+}
+.generaldiv{
+    padding-left: 20px;
+    width: 65%;
+}
+.p1{
+    font-weight: light;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p2{
+    font-weight: light;
+    color: gray;
+    font-size:small;
+}
+.title{
+   font-size: large;
+}
+#p3{
+    background-color: rgb(199, 190, 190);
+    width: 80px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 30%
+}
+.time{
+    display: flex;
+}
+#date{
+    padding: 10px;
+}

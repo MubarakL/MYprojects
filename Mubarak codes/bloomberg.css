@@ -1,0 +1,289 @@
+ul{
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+    border-bottom: 1px dotted gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+.me{
+    display: flex;
+}
+.we li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.us{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.we{
+    display: flex;
+}
+#so{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 11px;
+    margin-right: 3px;
+}
+#sed{
+    color:black;
+    border: 1px solid black;
+    margin-left: 3px;
+}
+.me li{
+    margin-right: 7px;
+}
+.did{
+    border-bottom: none;
+}
+.did li{
+    color: gray;
+    font-weight: bold;
+}
+
+#xyz{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    font-weight: bolder;
+    font-size: larger;
+}
+#vc{
+    color: black;
+}
+button{
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+body{
+    max-width: 95%;
+    margin: auto;
+}
+.generalblog{
+    display: flex;
+    justify-content: space-between;
+}
+.firstlist{
+    border-bottom: none;
+    justify-content: space-between;
+}
+.firstlist div{
+    display: flex;
+}
+.firstlist .red{
+    margin-right: 100px;
+}
+.fantasticbeasts{
+    width: 440px;
+    height: 237px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+strong{
+    font-size: x-large;
+}
+#trailer{
+    margin-right: 3px;
+}
+#premieres{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#announced{
+    margin-left: 3px;
+}
+span{
+    background-color: white;
+    color: gray;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.image1{
+    position: relative;
+}
+.p1{
+    color: gray;
+    font-size: medium;
+    padding-left: 10px;
+}
+.p2{
+    color: gray;
+    font-size: medium;
+    padding-left: 10px;
+}
+.s1{
+    padding-left: 10px;
+}
+.up1{
+    width: 120px;
+    height: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.up2{
+    width: 120px;
+    height: 90px;
+    padding-left: 10px;
+}
+.a31{
+    color: blueviolet;
+    font-size:large;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.blue{
+    padding: 10px;
+    padding-top: 20px;
+}
+.wy{
+    display: flex;
+    padding-left: 10px;
+}
+.p3{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px;
+    font-weight: bold;
+}
+.p4{
+    margin-left: 10px;
+    font-size: medium;
+    color: gray;
+    padding: 5px;
+}
+.p5{
+    font-size: medium;
+    padding-left: 10px;
+}
+.p6{
+    padding-left: 10px;
+    color: gray;
+}
+.yw{
+    border-bottom: 1px dotted gray;
+}
+.a32{
+    color: blueviolet;
+    font-size:large;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.men{
+    display: flex;
+    padding-left: 10px;
+}
+.p7{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px;
+    font-weight: bold;
+}
+.p8{
+    margin-left: 10px;
+    font-size: medium;
+    color: gray;
+    padding: 5px;
+}
+.nem{
+    border-bottom: 1px dotted gray;
+}
+.p9{
+    padding-left: 10px;
+}
+.p10{
+    padding-left: 10px;
+    color: gray;
+}
+.a33{
+    color: blueviolet;
+    font-size:large;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.green{
+    padding: 10px;
+    padding-top: 20px;
+}
+.p11{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px;
+    font-weight: bold;
+}
+.p12{
+    margin-left: 10px;
+    font-size: medium;
+    color: gray;
+    padding: 5px;
+}
+.yem{
+    display: flex;
+    padding-left: 10px;
+}
+.p13{
+    font-size: medium;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.up3{
+    width: 100px;
+    height: 90px;
+    padding-right: 10px;
+    padding-left: 10px;
+    object-fit: contain;
+}
+.mey{
+    display: flex;
+}
+.a40{
+    color: blueviolet;
+    font-size:large;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .generalblog{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    body{
+        /* max-width: 50%; */
+        margin: auto;
+    }
+    .fre{
+        width: 100%;
+    }
+    .fantasticbeasts{
+        width: 440px;
+        height: 237px;
+    }
+    .weds{
+        margin-right: 48px;
+    }
+    .firstlist .weds{
+        margin: 0;
+    }
+    .weds #trailer{
+        margin: 0;
+    }
+    .weds #premieres{
+        margin: 0;
+    }
+    .weds #announced{
+        margin: 0;
+    }
+    .firstlist .red{
+        margin-right: 10px;
+    }
+}

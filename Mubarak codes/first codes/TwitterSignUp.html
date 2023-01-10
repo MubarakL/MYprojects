@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Sign Up</title>
+    <link rel="stylesheet" href="/TwitterSignUp.css">
+</head>
+<body style="background-color: cyan;">
+    <form style="background-color: white;">
+        <div class="imn">
+            <fieldset>
+                <Legend style="text-align: center; color: darkcyan;">SIGN UP FOR TWITTER</Legend>
+                <div>
+                    <label>FIRSTNAME</label>
+                    <input type="text" placeholder="ENTER FIRSTNAME" name="FIRSTNAME" value="" required>
+                </div>
+    
+                <div>
+                    <label>LASTNAME</label>
+                    <input type="text" placeholder="ENTER LASTNAME" name="LASTNAME" value="" required>
+                </div>
+    
+                <div>
+                    <label>E-MAIL</label>
+                    <input type="email" placeholder="ENTER E-MAIL" name="E-MAIL" value="" required>
+                </div>
+    
+                <div>
+                    <label>CONFIRM E-MAIL</label>
+                    <input type="email" placeholder="CONFIRM E-MAIL" name="CONFIRM E-MAIL" value="" required>
+                </div>
+                <div>
+                    <label>USERNAME</label>
+                    <input type="text" placeholder="ENTER USERNAME" name="USERNAME" value="" required>
+                </div>
+                <div>
+                    <label>PASSWORD</label>
+                    <input type="password" placeholder="ENTER PASSWORD" name="PASSWORD" value="" required>
+                </div>
+                <div>
+                    <label>CONFIRM PASSWORD</label>
+                    <input type="password" placeholder="CONFIRM PASSWORD" name="CONFIRM PASSWORD" value="" required>
+                </div>
+                <div>
+                    <label>GENDER</label><br>
+                    <input type="radio" name="GENDER" value="male" required>Male<br>
+                    <input type="radio" name="GENDER" value="female" required>Female<br>
+                    <input type="radio" name="GENDER" value="other" required>Other<br>
+                </div>
+        </div>
+        <div class="ijk">
+                <label>BIO</label>
+                <textarea name="about" rows="20" cols="40" placeholder="bio" required></textarea>
+            </div>
+            <div>
+                <label>AGE</label>
+                <input type="number" min="18" required>
+            </div>
+            <div>
+                <label>DATE OF BIRTH</label>
+                <input type="date" required>
+            </div>
+            <div>
+                <label>CHOOSE PROFILE PICTURE</label>
+                <input type="file" name="img" required>
+            </div>
+            <div>
+                <button ondblclick="alert('Welcome to your Twitter Home Page')"><a href="https://twitter.com/home">SignUp</a></button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
