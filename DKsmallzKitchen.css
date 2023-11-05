@@ -1,0 +1,234 @@
+ul{
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+.navbarcontents{
+    display: flex;
+}
+.individualcontents{
+    margin-right: 10px;
+    color: #A50B5E;
+}
+.navbarcontents li a{
+    text-decoration: none;
+}
+input{
+    width: 400px;
+    height: 30px;
+}
+.link1{
+    background-color: #A50B5E;
+    padding: 16px;
+    color: white;
+    font-weight: bolder;
+}
+.link2{
+    background-color: white;
+    padding: 15px;
+    color: #A50B5E;
+    font-weight: bolder;
+    border: 1px solid #A50B5E;
+}
+.logo{
+    margin-left: 90px;
+    width: 200px;
+}
+.description{
+    background-color: #99cc00;
+    height: 450px;
+    color: white;
+    position: relative;
+    margin-top: 10px;
+}
+.navbar ul{
+    height: 5px
+}
+button{
+    background-color: #A50B5E;
+    border: none;
+    padding: 7px;
+    box-shadow: 2px 2px grey;
+}
+.wordindescr{
+    position: absolute;
+    top: 170px;
+    left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.incambodia{
+    font-size:xx-large;
+}
+.wedeliver{
+    font-size:large;
+}
+.sort{
+    border: 1px solid #A50B5E;
+}
+.ourmenus{
+    color: #A50B5E;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sort option{
+    border: 1px solid #A50B5E;
+}
+.chefimage{
+    position:absolute;
+    right: 80px;
+    top: 50px;
+}
+#chefimage{
+    height: 300px;
+    width: 250px;
+}
+.frankfurt{
+    width: 200px;
+    height: 200px;
+}
+.foodname{
+    color: #8fd400;
+    font-weight: bolder;
+}
+.fooditems{
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    justify-content:space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.crunchyfries{
+    width: 200px;
+    height: 200px;
+}
+.fruitparfait{
+    width: 200px;
+    height: 200px;
+}
+.products{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.placeorder{
+    display: flex;
+    justify-content: space-between;
+}
+.orderbtn{
+    height: 25px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.price{
+    color: #A50B5E;
+    font-weight: bolder;
+}
+.Icecream{
+    width: 200px;
+    height: 200px;
+}
+.spicymacaroni{
+    width: 200px;
+    height: 200px;
+}
+.spicyrice{
+    width: 200px;
+    height: 200px;
+}
+.pancakespheres{
+    width: 160px;
+    height: 200px;
+}
+.pancakes{
+    width: 200px;
+    height: 200px;
+}
+.plainparfait{
+    width: 200px;
+    height: 200px;
+}
+#btn{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: medium;
+    align-items: center;
+}
+.fooditems button{
+    background-color: #A50B5E;
+    border: none;
+    padding: 5px;
+    box-shadow: 2px 2px grey;
+}
+.view button{
+    background-color: #A50B5E;
+    border: none;
+    padding: 5px;
+    box-shadow: 2px 2px grey;
+}
+#searchbtn{
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.searchbtn{
+    box-shadow: none;
+    height: 35px;
+}
+
+
+
+/* BreadedShrimp */
+.fooditems2{
+    display: flex;
+    margin-top: 50px;
+    box-shadow: 2px 2px grey;
+    background-color: #8fd400;
+}
+.breadedshrimp{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.friedshrimp2{
+    width: 300px;
+    height: 300px;
+}
+.foodname2{
+    font-size:50px;
+    color: #A50B5E;
+}
+.fooddescription2{
+    font-size:20px;
+}
+.price2{
+    font-size: 25px;
+    color:#A50B5E;
+    font-weight: bolder;
+}
+.navbar2{
+    background-color:#A50B5E;
+    align-self: center;
+}
+.individualcontents2{
+    margin-right: 10px;
+    color:#8fd400;
+    font-weight: bold;
+}
+.searchbtn2{
+    box-shadow: #8fd400;
+    height: 35px;
+    background-color: white;
+}
+#searchbtn2{
+    color: #a50b5e;
+    padding: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
